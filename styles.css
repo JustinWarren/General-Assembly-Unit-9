@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica, Arial;
+	font-size:1em;
+	background-color: #7B9BA6;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+h1,h2, h3 {
+	text-align: center;
+	padding:1em;
+}
+
+
+#hero {
+	background-image: url("images/toms-restaurant.jpg");
+	height: 90vh;
+	background-size: cover;
+	box-sizing:border-box;
+}
+
+.main-title {
+	color:#fff;
+	font-size:3em;
+	text-align: center;
+	padding:32px 32px 16px 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 4px 3px 2px rgba(159, 150, 150, 1); /*Generated from https://css3gen.com/text-shadow/***/
+}
+
+.sub-title {
+	color:#fff;
+	font-size:1.5em;
+	text-align:center;
+	font-style:italic;
+	text-shadow: 4px 3px 2px rgba(159, 150, 150, 1); /*Generated from https://css3gen.com/text-shadow/***/
+}
+
+/****RESERVATION SECTION STYLES****/
+
+.container {
+	width:100%;
+}
+
+.reservation-column{
+	float:left;
+	background-color: #EEF4F2;
+	width:40%;
+	margin:5%;
+	padding:5px;
+	height:300px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+.container:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+/***Form items are inline so they must
+be changed to block in order to stack***/
+
+/***FORM STYLES***/
+.form {
+	display:block;
+	text-align:center; /*This centers the form. Remember to place the form in a div and style the div*/
+}
+
+.day {
+	margin-right:10px;
+}
+
+form {
+	display: inline-block;
+	margin:0 auto;
+	/*text-align: left;*/
+}
+
+
+input[type=text] {
+	display: inline-block;
+	padding:10px 15px;
+	margin: 10px 0;
+}
+
+
+button {
+	display:block;
+	width:100%;
+	padding:10px 15px;
+	margin-top:15px 0;
+	color:white;
+	background-color: #5073A4;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+/****TABLE STYLES****/
+table, th {
+	border:1px solid black;
+	margin: 0 auto; /***Causes table to be aligned to center of div***/
+}
+
+td {
+	padding:15px;
+	border:1px solid black;
+}
+
+/******GOOGLE MAP STYLES*****/
+#map {
+	max-width: 800px;
+	margin:auto;
+}
+
+/****CUSTOMER REVIEW STYLES****/
+
+
+.review-img {
+	float:left;
+	margin: 0 45px 45px 100px;
+	border-radius: 5px;
+}
+
+.review {
+	font-size: 1.5em;
+	color:#fff;
+	padding:25px;
+	margin-left:25px;
+}
+

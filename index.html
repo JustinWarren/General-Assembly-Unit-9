@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>Monk's Cafe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<!--Hero Image Header-->
+		<div id="hero">
+			<p class="main-title">Monk's Cafe</p>
+			<p class="sub-title">"The Coffee Shop"</p>
+		</div>
+
+
+		<h1>Reservations</h1>
+
+		<div class="container">	
+		<div class="reservation-column">
+			<h2>Make a Reservation</h2>
+			<div class="form">
+			<form class="reservations-form">
+				<div>
+				<label>Name</label>
+				<input type="text" placeholder="Name...">
+				</div>
+				<div>
+				<label class="day">Day</label>
+				<input type="text" placeholder="Day...">
+				</div>
+				<button>Confirm</button>
+			</form>
+			</div>
+		</div>
+
+		<div class="reservation-column">
+			<h2>Existing Reservations</h2>
+			<table width="360px">
+				<thead>
+					<tr class="table">
+						<th>Name</th>
+						<th>Day</th>
+					</tr>
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+				</thead>
+			</table>
+		</div>
+		</div>
+<!--Google Map -->
+		<div>
+			<h1>Come Dine with Us</h1>
+		</div>
+		<div id="map" style="height:70vh"></div>
+		
+		
+<!--Customer Review-->
+		<h1>Customer Reviews</h1>
+		<div class="review-section">
+			<p class="review"><img class="review-img" src="images/jerry.jpg" alt="Picture of Jerry Seinfield and and George Kastanza in a diner.">
+			"Big lettuce, big carrots, tomatoes like volleyballs."<br><i>- Jerry Seinfeld, on The BIG Salad</i></p>
+		</div>
+		<!--Main JS script-->
+		  <script src="main.js"></script>
+		<!-- Google Maps Script-->
+		  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWWogM4WqawHe23FU1FuhPDduuQzH1a1A&callback=initMap"
+  type="text/javascript"></script>
+	</body>
+</html>
